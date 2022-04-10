@@ -17,9 +17,6 @@
   "repository": "https://github.com/chronoDave/mithril-tsx.git",
   "author": "Chronocide",
   "license": "MIT",
-  "engines": {
-    "node": ">10.12.0"
-  },
   "scripts": {
     "build": "tsc",
     "prepublishOnly": "npm run build"
