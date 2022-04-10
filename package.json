@@ -1,0 +1,35 @@
+{
+  "name": "mithril-tsx",
+  "version": "1.0.0",
+  "description": "Strongly-typed TSX component for Mithril.js.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "mithril",
+    "tsx",
+    "typescript",
+    "class",
+    "component"
+  ],
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": "https://github.com/chronoDave/mithril-tsx.git",
+  "author": "Chronocide",
+  "license": "MIT",
+  "engines": {
+    "node": ">10.12.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "mithril": "2.x"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.0.10",
+    "mithril": "2.x",
+    "typescript": "^4.6.2"
+  }
+}
